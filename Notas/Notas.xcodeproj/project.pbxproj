@@ -15,7 +15,18 @@
 		E3E3AAD52B1EE1170047EBFA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAD42B1EE1170047EBFA /* ViewModel.swift */; };
 		E3E3AAD72B1F72520047EBFA /* CretaeNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAD62B1F72520047EBFA /* CretaeNoteView.swift */; };
 		E3E3AAD92B1F8E5A0047EBFA /* UpdateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAD82B1F8E590047EBFA /* UpdateNoteView.swift */; };
+		E3E3AAE32B1FA7030047EBFA /* NotasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAE22B1FA7030047EBFA /* NotasTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3E3AAE42B1FA7030047EBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3E3AAB42B1EDE0F0047EBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E3AABB2B1EDE0F0047EBFA;
+			remoteInfo = Notas;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E3E3AABC2B1EDE0F0047EBFA /* Notas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notas.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,10 +38,19 @@
 		E3E3AAD42B1EE1170047EBFA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E3E3AAD62B1F72520047EBFA /* CretaeNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CretaeNoteView.swift; sourceTree = "<group>"; };
 		E3E3AAD82B1F8E590047EBFA /* UpdateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNoteView.swift; sourceTree = "<group>"; };
+		E3E3AAE02B1FA7030047EBFA /* NotasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E3AAE22B1FA7030047EBFA /* NotasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E3E3AAB92B1EDE0F0047EBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E3AADD2B1FA7030047EBFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				E3E3AABE2B1EDE0F0047EBFA /* Notas */,
+				E3E3AAE12B1FA7030047EBFA /* NotasTests */,
 				E3E3AABD2B1EDE0F0047EBFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				E3E3AABC2B1EDE0F0047EBFA /* Notas.app */,
+				E3E3AAE02B1FA7030047EBFA /* NotasTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +125,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		E3E3AAE12B1FA7030047EBFA /* NotasTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3E3AAE22B1FA7030047EBFA /* NotasTests.swift */,
+			);
+			path = NotasTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,6 +153,24 @@
 			productReference = E3E3AABC2B1EDE0F0047EBFA /* Notas.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E3E3AADF2B1FA7030047EBFA /* NotasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E3AAE82B1FA7030047EBFA /* Build configuration list for PBXNativeTarget "NotasTests" */;
+			buildPhases = (
+				E3E3AADC2B1FA7030047EBFA /* Sources */,
+				E3E3AADD2B1FA7030047EBFA /* Frameworks */,
+				E3E3AADE2B1FA7030047EBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3E3AAE52B1FA7030047EBFA /* PBXTargetDependency */,
+			);
+			name = NotasTests;
+			productName = NotasTests;
+			productReference = E3E3AAE02B1FA7030047EBFA /* NotasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -135,6 +183,10 @@
 				TargetAttributes = {
 					E3E3AABB2B1EDE0F0047EBFA = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					E3E3AADF2B1FA7030047EBFA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E3E3AABB2B1EDE0F0047EBFA;
 					};
 				};
 			};
@@ -152,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				E3E3AABB2B1EDE0F0047EBFA /* Notas */,
+				E3E3AADF2B1FA7030047EBFA /* NotasTests */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +216,13 @@
 			files = (
 				E3E3AAC92B1EDE110047EBFA /* Preview Assets.xcassets in Resources */,
 				E3E3AAC62B1EDE110047EBFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E3AADE2B1FA7030047EBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +242,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3E3AADC2B1FA7030047EBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E3AAE32B1FA7030047EBFA /* NotasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3E3AAE52B1FA7030047EBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E3AABB2B1EDE0F0047EBFA /* Notas */;
+			targetProxy = E3E3AAE42B1FA7030047EBFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E3E3AACA2B1EDE110047EBFA /* Debug */ = {
@@ -362,6 +438,42 @@
 			};
 			name = Release;
 		};
+		E3E3AAE62B1FA7030047EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VP5583697;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notasapp.NotasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notas";
+			};
+			name = Debug;
+		};
+		E3E3AAE72B1FA7030047EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VP5583697;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notasapp.NotasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notas";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -379,6 +491,15 @@
 			buildConfigurations = (
 				E3E3AACD2B1EDE110047EBFA /* Debug */,
 				E3E3AACE2B1EDE110047EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E3AAE82B1FA7030047EBFA /* Build configuration list for PBXNativeTarget "NotasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E3AAE62B1FA7030047EBFA /* Debug */,
+				E3E3AAE72B1FA7030047EBFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
