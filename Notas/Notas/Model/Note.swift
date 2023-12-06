@@ -11,17 +11,17 @@ struct Note: Identifiable, Hashable{
     var id: UUID
     let title: String
     let text: String?
-    let createddAt: Date
+    let createdAt: Date
     
     var getText: String{
         text ?? ""
     }
     
-    init(id: UUID = UUID(), title: String, text: String?, createddAt: Date) {
+    init(id: UUID = UUID(), title: String, text: String?, createdAt: Date) {
         self.id = id
         self.title = title
         self.text = text
-        self.createddAt = createddAt
+        self.createdAt = createdAt
     }
     
 }

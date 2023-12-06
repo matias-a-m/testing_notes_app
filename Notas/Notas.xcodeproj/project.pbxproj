@@ -15,7 +15,8 @@
 		E3E3AAD52B1EE1170047EBFA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAD42B1EE1170047EBFA /* ViewModel.swift */; };
 		E3E3AAD72B1F72520047EBFA /* CretaeNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAD62B1F72520047EBFA /* CretaeNoteView.swift */; };
 		E3E3AAD92B1F8E5A0047EBFA /* UpdateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAD82B1F8E590047EBFA /* UpdateNoteView.swift */; };
-		E3E3AAE32B1FA7030047EBFA /* NotasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAE22B1FA7030047EBFA /* NotasTests.swift */; };
+		E3E3AAE32B1FA7030047EBFA /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAE22B1FA7030047EBFA /* NoteTests.swift */; };
+		E3E3AAEA2B20273C0047EBFA /* ViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3AAE92B20273C0047EBFA /* ViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,8 @@
 		E3E3AAD62B1F72520047EBFA /* CretaeNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CretaeNoteView.swift; sourceTree = "<group>"; };
 		E3E3AAD82B1F8E590047EBFA /* UpdateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNoteView.swift; sourceTree = "<group>"; };
 		E3E3AAE02B1FA7030047EBFA /* NotasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3E3AAE22B1FA7030047EBFA /* NotasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasTests.swift; sourceTree = "<group>"; };
+		E3E3AAE22B1FA7030047EBFA /* NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
+		E3E3AAE92B20273C0047EBFA /* ViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +130,8 @@
 		E3E3AAE12B1FA7030047EBFA /* NotasTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3E3AAE22B1FA7030047EBFA /* NotasTests.swift */,
+				E3E3AAE22B1FA7030047EBFA /* NoteTests.swift */,
+				E3E3AAE92B20273C0047EBFA /* ViewModelTest.swift */,
 			);
 			path = NotasTests;
 			sourceTree = "<group>";
@@ -246,7 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3E3AAE32B1FA7030047EBFA /* NotasTests.swift in Sources */,
+				E3E3AAEA2B20273C0047EBFA /* ViewModelTest.swift in Sources */,
+				E3E3AAE32B1FA7030047EBFA /* NoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

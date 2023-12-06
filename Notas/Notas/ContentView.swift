@@ -65,10 +65,10 @@ struct ContentView: View {
 // Vista de previsualización
 #Preview {
     ContentView(viewModel: .init(notes: [
-        .init(title: "Matias", text: "iOS Developer", createddAt: .now),
-        .init(title: "Ana", text: "Web Developer", createddAt: Date()),
-        .init(title: "Pedro", text: "Data Scientist", createddAt: Date(timeIntervalSinceNow: -86400)), // Hace un día
-        .init(title: "Sofia", text: "Game Developer", createddAt: Date(timeIntervalSinceNow: -172800)), // Hace dos días
-        .init(title: "Eduardo", text: "Machine Learning Engineer", createddAt: .now)
+        .init(title: "Matias", text: "iOS Developer", createdAt: .now),
+        .init(title: "Ana", text: "Web Developer", createdAt: Date()),
+        .init(title: "Pedro", text: "Data Scientist", createdAt: Date(timeIntervalSinceNow: -86400)), // Hace un día
+        .init(title: "Sofia", text: "Game Developer", createdAt: Date(timeIntervalSinceNow: -172800)), // Hace dos días
+        .init(title: "Eduardo", text: "Machine Learning Engineer", createdAt: .now)
     ]))
 }
